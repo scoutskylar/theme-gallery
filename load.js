@@ -22,7 +22,7 @@
     
     // Thumbnail
     img = document.createElement('img');
-    img.setAttribute('src', themeName.toLowerCase() + '.png');
+    img.setAttribute('src', 'thumbnails/' + themeName.toLowerCase() + '.png');
     img.setAttribute('alt', themeName);
     div.appendChild(img);
     

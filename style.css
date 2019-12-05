@@ -9,8 +9,6 @@ body {
 }
 
 main {
-    display: flexbox;
-    flex-flow: row wrap;
     margin: 0;
     padding: 0;
     line-height: 0;
@@ -44,4 +42,20 @@ p {
     text-align: center;
     border-top: 2px solid;
     background-color: hsla(0, 0%, 70%, 1);
+}
+
+div.info {
+    box-sizing: border-box;
+    width: 260px;
+    height: 210px;
+    display: inline-flex;
+    vertical-align: top;
+    background-color: hsla(0, 0%, 70%, 1);
+}
+
+div.info p {
+    border: none;
+    align-self: center;
+    background: initial;
+    width: 100%;
 }
