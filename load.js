@@ -1,4 +1,5 @@
 {
+  const cacheId = 'Hello-World'
   const newThemeAvailable = true;
   const newThemeAltText = 'FHSched New Theme';
   const newThemeAltTextHint = 'Icy background with snowflakes falling';
@@ -13,7 +14,7 @@
     'Metropolis',
     'Marigold',
     'Cornucopia',
-    'Vaporwave',
+    'Vaporwave-BUGGY',
     'Tumbleweed'
   ];
 
@@ -26,13 +27,14 @@
     
     // Thumbnail
     img = document.createElement('img');
-    img.setAttribute('src', 'thumbnails/' + themeName.toLowerCase() + '.png');
-    img.setAttribute('alt', themeName);
+    img.setAttribute('src', 'thumbnails/' + themeIndex + '_' + themeName.toLowerCase() + '.png?thumbnailsVersion=' + cacheId);
+    themeName = themeName.slice(0, themeName.indexOf('-') > 0 ? themeName.indexOf('-') : undefined);
+    img.setAttribute('alt', themeName + ' thumbnail');
     div.appendChild(img);
     
     // Title
     p = document.createElement('p');
-    p.innerText = themeName;
+    p.innerText = themeIndex + '. ' + themeName;
     div.appendChild(p);
 
     main.appendChild(div);
@@ -45,12 +47,13 @@
     
     // Thumbnail
     img = document.createElement('img');
-    img.setAttribute('src', 'new theme.jpg?index=' + themeIndex);
+    img.setAttribute('src', 'new theme.jpg?thumbnailsVersion=' + cacheId);
     img.setAttribute('alt', ((newThemeAltText ? '“' + newThemeAltText + '”' + (newThemeAltTextHint ? ': ' : '') : '') + newThemeAltTextHint));
     div.appendChild(img);
     
     // Title
     p = document.createElement('p');
+    // p.innerText = themeIndex + '. ' + 'New Theme';
     p.innerText = 'New Theme';
     div.appendChild(p);
 
