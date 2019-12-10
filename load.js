@@ -14,7 +14,7 @@
     'Metropolis',
     'Marigold',
     'Cornucopia',
-    'Vaporwave-BUGGY',
+    'Vaporwave-buggy',
     'Tumbleweed'
   ];
 

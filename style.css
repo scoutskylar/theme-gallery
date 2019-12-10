@@ -54,9 +54,9 @@ main > div p {
     background-color: hsla(0, 0%, 70%, 1);
 }
 
-main > div > *:not(p) {
-    /* flex: 1 1 auto; */
-}
+/* main > div > *:not(p) {
+    flex: 1 1 auto;
+} */
 
 main > div > p:last-child:not(:only-child) {
     border-top: 2px solid;
