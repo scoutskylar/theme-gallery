@@ -1,4 +1,4 @@
-{
+﻿{
   const cacheId = 'Hello-World'
   const newThemeAvailable = false;
   const newThemeAltText = ''; // quoted text
@@ -10,14 +10,14 @@
     'Aqua',
     'Emerald',
     'Autumn',
-    'Midnight-gallery-bug',
+    'Midnight-not-released',
     'Metropolis',
     'Marigold',
     'Cornucopia',
     'Vaporwave',
     'Tumbleweed',
     'Frost',
-    'Mistletoe-gallery-bug',
+    'Mistletoe-not-released',
     'Quantum',
     'Template',
     'LLS'
