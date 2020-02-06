@@ -20,7 +20,8 @@
     'Mistletoe-not-released',
     'Quantum',
     'Template',
-    'LLS'
+    'LLS',
+    'Galaxy'
   ];
 
   let main = document.getElementsByTagName('main')[0];
