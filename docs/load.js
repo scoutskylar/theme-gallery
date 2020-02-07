@@ -10,14 +10,14 @@
     'Aqua',
     'Emerald',
     'Autumn',
-    'Midnight-not-released',
+    'Removed', // Midnight
     'Metropolis',
     'Marigold',
     'Cornucopia',
     'Vaporwave',
     'Tumbleweed',
     'Frost',
-    'Mistletoe-not-released',
+    'Removed', // Mistletoe
     'Quantum',
     'Template',
     'LLS',
