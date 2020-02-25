@@ -1,8 +1,8 @@
 ﻿{
-  const cacheId = 'Hello-World'
-  const newThemeAvailable = false;
+  const cacheId = 'Here-comes-AARC';
+  const newThemeImageFilename = 'woof,woof.png';
   const newThemeAltText = ''; // quoted text
-  const newThemeAltTextHint = '';
+  const newThemeAltTextHint = 'Swap swap.';
   const themes = [
     'Classic',
     'Dark',
@@ -21,7 +21,8 @@
     'Quantum',
     'Template',
     'LLS',
-    'Galaxy'
+    'Galaxy',
+    'Cupid'
   ];
 
   let main = document.getElementsByTagName('main')[0];
@@ -48,12 +49,12 @@
     themeIndex++;
   }
 
-  if (newThemeAvailable) {
+  if (newThemeImageFilename) {
     div = document.createElement('div');
     
     // Thumbnail
     img = document.createElement('img');
-    img.setAttribute('src', 'new theme.jpg?cacheId=' + cacheId + '&themeId=' + themeIndex);
+    img.setAttribute('src', newThemeImageFilename + '?cacheId=' + cacheId + '&themeId=' + themeIndex);
     img.setAttribute('alt', ((newThemeAltText ? '“' + newThemeAltText + '”' + (newThemeAltTextHint ? ': ' : '') : '') + newThemeAltTextHint));
     div.appendChild(img);
     
