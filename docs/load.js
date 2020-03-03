@@ -1,8 +1,8 @@
 ﻿{
-  const cacheId = 'Here-comes-AARC';
-  const newThemeImageFilename = 'woof,woof.png';
+  const cacheId = 'MyFirstTheme-MadeFromRequest';
+  const newThemeImageFilename = 'grayscale-photo-of-man-683404.jpg';
   const newThemeAltText = ''; // quoted text
-  const newThemeAltTextHint = 'Swap swap.';
+  const newThemeAltTextHint = '';
   const themes = [
     'Classic',
     'Dark',
@@ -22,7 +22,8 @@
     'Template',
     'LLS',
     'Galaxy',
-    'Cupid'
+    'Cupid',
+    'Paws'
   ];
 
   let main = document.getElementsByTagName('main')[0];
