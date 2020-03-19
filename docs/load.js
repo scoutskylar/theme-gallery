@@ -1,6 +1,6 @@
 ﻿{
-  const cacheId = 'MyFirstTheme-MadeFromRequest';
-  const newThemeImageFilename = 'grayscale-photo-of-man-683404.jpg';
+  const cacheId = 'VoidIsNowOnTheGallery';
+  const newThemeImageFilename = '';
   const newThemeAltText = ''; // quoted text
   const newThemeAltTextHint = '';
   const themes = [
@@ -23,7 +23,8 @@
     'LLS',
     'Galaxy',
     'Cupid',
-    'Paws'
+    'Paws',
+    'Void'
   ];
 
   let main = document.getElementsByTagName('main')[0];
