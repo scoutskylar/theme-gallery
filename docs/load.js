@@ -1,5 +1,5 @@
 ﻿{
-  const cacheId = 'VoidIsNowOnTheGallery';
+  const cacheId = 'Archived-v1';
   const newThemeImageFilename = '';
   const newThemeAltText = ''; // quoted text
   const newThemeAltTextHint = '';
@@ -62,7 +62,6 @@
     
     // Title
     p = document.createElement('p');
-    // p.innerText = themeIndex + '. ' + 'New Theme';
     p.innerText = 'New Theme';
     div.appendChild(p);
 
